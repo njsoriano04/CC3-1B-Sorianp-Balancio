@@ -1,0 +1,70 @@
+
+package classesandobjects;
+
+
+public class Dog {
+    
+    
+    String Name;
+    int Age;
+    String Breed;
+    char Gender;
+  
+   
+    public void setName(String dogName){
+
+        Name = dogName;
+                                       }
+    public String getName(){
+    
+        return Name;
+                            }
+    
+    public void setAge (int dogAge){
+        
+        Age = dogAge;
+        
+                                   }
+    
+    public int getAge(){
+        
+        return Age;
+                        }
+     public void setBreed(String dogBreed){
+         
+         Breed = dogBreed;
+         
+                                        }   
+     
+     public String getBreed(){
+         
+        return Breed;
+                             }
+     
+     public void setGender(char dogGender){
+         
+         Gender = dogGender;
+                                           } 
+
+     public char getGender(){
+         
+         return Gender;
+     }
+
+
+     
+     
+    }
+    
+    
+    
+    
+    
+    
+ 
+   
+
+
+
+
+
