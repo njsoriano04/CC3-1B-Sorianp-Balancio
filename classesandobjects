@@ -1,0 +1,55 @@
+package classesandobjects;
+import classesandobjects.Dog;
+import java.util.Scanner;
+
+
+
+public class ClassesAndObjects {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        Dog bantay = new Dog ();
+        
+        System.out.print("Enter Name:");
+        String Name = sc.nextLine();
+        bantay.setName(Name);
+        String x = bantay.getName();
+        
+       
+        
+        System.out.print("Enter Age: ");
+        int Age = sc.nextInt();
+        bantay.setAge(Age);
+        int c = bantay.getAge();
+        
+        
+        System.out.print("Enter Breed: ");
+        String Breed =sc.next();
+        bantay.setBreed(Breed);
+        String d = bantay.getBreed();
+        
+        
+        System.out.print("Enter Gender: ");
+        char Gender = sc.next().charAt(0);
+        bantay.setGender(Gender);
+        char e = bantay.getGender();
+        
+        System.out.println("==============================================");
+        System.out.println("Dog1");
+        System.out.println("Name:"+ x);
+        System.out.println("Age:"+c);
+        System.out.println("Breed:"+d);
+        System.out.println("Gender:"+e);
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
